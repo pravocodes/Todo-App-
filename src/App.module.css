@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.App {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  background: linear-gradient(90deg, rgba(171, 154, 244, 0.5) 0%, rgba(199, 187, 199, 0.5) 100%);
+  color: #fff;
+  border-radius: 10px;
+  top: 40px;
+  padding: 20px;
+  backdrop-filter: blur(50px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.heading {
+  text-align: center;
+  color: #fff;
+}
+
+.clearAllTodosBtn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #ab9af4;
+}

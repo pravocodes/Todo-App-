@@ -1,0 +1,71 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(86, 77, 126, 0.7) 0%, rgba(199, 187, 199, 0.7) 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    width: 80%;
+    max-width: 800px;
+}
+
+.Contact h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Contact p {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.ContactForm label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    color: #fff;
+}
+
+.ContactForm input,
+.ContactForm textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.ContactForm input[type="submit"] {
+    background-color: #ab9af4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.ContactForm input[type="submit"]:hover {
+    background-color: #9a8de0;
+}

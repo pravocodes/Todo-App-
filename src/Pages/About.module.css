@@ -1,0 +1,31 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(80, 93, 151, 0.7) 0%, rgba(199, 187, 199, 0.7) 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    width: 80%;
+    max-width: 800px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.About h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.About p {
+    text-align: center;
+    color: #fff;
+}
